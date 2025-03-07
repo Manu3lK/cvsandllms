@@ -3,6 +3,16 @@
 # A simple YAML file to store prompts with versioning
 
 
+simple_system_prompt:
+  description: |
+    Ergänze ich vielleicht später
+  created_date: |
+    Kommt vielleicht auch noch
+  v1: |
+    Du bist ein Experte im Umgang mit Bewerbungen.
+
+  v2: |
+    Keine V2 vorhanden
 
 
 very_simple_prompt:
