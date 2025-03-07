@@ -1,0 +1,46 @@
+
+# prompts.yaml
+# A simple YAML file to store prompts with versioning
+
+
+simple_system_prompt:
+  description: |-
+    Ergänze ich vielleicht später
+  
+  created_date: |-
+    Kommt vielleicht auch noch
+  
+  v1: |-
+    Du bist ein Experte im Umgang mit Bewerbungen.
+
+  
+  v2: |-
+    This is
+    just a test for the newlines
+
+
+very_simple_prompt:
+  description: |-
+    Ergänze ich vielleicht später
+  
+  created_date: |-
+    Kommt vielleicht auch noch
+  
+  v1: |-
+    Analysiere den Lebenslauf und erstelle eine Zussammenfassung die ungefähr 200 bis 300 Wörter lang ist.
+
+  v2: |-
+    Keine V2 vorhanden
+
+
+
+
+
+
+
+
+
+
+
+
+

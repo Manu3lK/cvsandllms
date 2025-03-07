@@ -1,0 +1,76 @@
+basis_befehl:
+  description: |-
+    Ergänze ich vielleicht später
+  
+  created_date: |-
+    Kommt vielleicht auch noch
+  
+  v1: |-
+    Analysiere den Lebenslauf und erstelle eine Zussammenfassung.
+
+
+struktur_beschreibung:
+  description: |-
+    Ergänze ich vielleicht später
+  
+  created_date: |-
+    Kommt vielleicht auch noch
+  
+  v1: |-
+    Hier sind folgende Punkte auf die du achten musst:
+
+  v2: |-
+    Hier sind folgende Punkte auf die bei der Zussammenfassung achten musst:
+
+
+laenge:
+  description: |-
+    Ergänze ich vielleicht später
+  
+  created_date: |-
+    Kommt vielleicht auch noch
+  
+  v1: |-
+    die Länge beträgt zwischen 200 bis 300 Wörter
+
+
+ton_und_stil:
+  description: |-
+    Ergänze ich vielleicht später
+  
+  created_date: |-
+    Kommt vielleicht auch noch
+  
+  v1: |-
+    Verfassen die Zusammenfassung in einem professionellen, objektiven Ton, der für einen deutschsprachigen Lebenslauf oder ein berufliches Profil geeignet ist, und spiegeln Sie den prägnanten und wirkungsvollen Stil einer gut gestalteten Zusammenfassung wider
+
+  v2: |-
+    verfasse die Zusammenfassung in einer ansprechenden Mischung aus Marketingdeutsch und proffesionellem Ton.
+
+# unibiased
+
+# very_simple_prompt:
+#   description: |-
+#     Ergänze ich vielleicht später
+  
+#   created_date: |-
+#     Kommt vielleicht auch noch
+  
+#   v1: |-
+#     Analysiere den Lebenslauf und erstelle eine Zussammenfassung die ungefähr 200 bis 300 Wörter lang ist.
+
+#   v2: |-
+#     Keine V2 vorhanden
+
+
+
+
+
+
+
+
+
+
+
+
+

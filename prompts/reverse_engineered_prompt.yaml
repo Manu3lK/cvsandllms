@@ -1,0 +1,71 @@
+# reverse engineering convo https://x.com/i/grok/share/88AYjCAsyksULgrbhtoysO7uj
+from_ma_et_and_grok3:
+  description: |-
+    Ergänze ich vielleicht später
+
+  created_date: |-
+    Kommt vielleicht auch noch
+
+  # v1 ist gar nicht gut, enthält aber brauchbare Teile
+  # output von v1 bei Grok https://x.com/i/grok/share/7QK87aWLtQqs7mY0BRa67xuta
+  v1: |-
+    Erstellen Sie eine etwa 250 Wörter lange deutsche Zusammenfassung des bereitgestellten Lebenslaufs. Die Zusammenfassung soll das berufliche Profil der Person umfassend darstellen und folgende Komponenten enthalten:
+    
+    Berufliche Übersicht:
+    Beginnen Sie mit einem Satz, der die Person vorstellt, ihre Gesamterfahrung in Jahren und ihre Hauptexpertisenbereiche (z. B. Projektmanagement, IT-Management) angibt.Höhepunkte der Berufserfahrung: Fügen Sie einen Absatz hinzu, der die wichtigsten Rollen, Verantwortlichkeiten und Erfolge aus der Berufshistorie zusammenfasst. Konzentrieren Sie sich auf die bedeutendsten oder jüngsten Positionen bei den im Lebenslauf genannten Unternehmen. Heben Sie besonders wirkungsvolle Beiträge hervor, wie Projektumsetzungen oder Prozessverbesserungen.Fähigkeiten und Zertifizierungen: Ergänzen Sie einen oder zwei Sätze, die die im Lebenslauf genannten Schlüsselfähigkeiten und Zertifizierungen auflisten (z. B. Projektmanagement, ISMS-Manager, Coaching), und betonen Sie diejenigen, die für die Expertise am relevantesten sind.
+    
+    Zusätzliche Informationen:
+    Falls relevant und der Platz es zulässt, schließen Sie mit einem Satz ab, der bemerkenswerte Projekte, Ausbildungen oder Erfolge erwähnt, die das Profil aufwerten.Spezielle 
+    
+    Anweisung zu redigierten Informationen:
+    Da sensible Informationen im Lebenslauf redigiert wurden und derzeit keine Platzhalter vorhanden sind, verwenden Sie 'Max Musterman' als Platzhalter für den Namen der Person. Für andere redigierte oder fehlende Details (z. B. Unternehmensnamen, Standorte) verwenden Sie generische Platzhalter wie 'Unternehmen ABC' oder 'Firma XYZ'. Wenn tatsächliche Unternehmensnamen angegeben sind, behalten Sie diese bei; andernfalls füllen Sie die Lücken mit diesen generischen Beispielen, um die Zusammenfassung kohärent und verständlich zu gestalten.
+    
+    Anweisungen für Flexibilität und Robustheit:
+    Wenn der Lebenslauf nicht in Deutsch verfasst ist (z. B. in Englisch), übersetzen Sie den Inhalt korrekt ins Deutsche für die Zusammenfassung.
+    
+    Passen Sie sich an verschiedene Lebenslaufformate an, indem Sie Standardabschnitte wie 'Berufserfahrung', 'Ausbildung' oder 'Fähigkeiten' identifizieren oder kontextuelle Hinweise (z. B. Daten, Berufsbezeichnungen, Schlüsselwörter) nutzen, falls Abschnitte unklar oder fehlend sind. Verarbeiten Sie den gesamten Lebenslauf, einschließlich aller Seiten und Abschnitte, um eine umfassende Zusammenfassung zu gewährleisten.
+    
+    Ton und Stil:
+    Verfassen Sie die Zusammenfassung in einem professionellen, objektiven Ton, der für einen deutschsprachigen Lebenslauf oder ein berufliches Profil geeignet ist, und spiegeln Sie den prägnanten und wirkungsvollen Stil einer gut gestalteten Zusammenfassung wider.
+    
+    Fehlerbehandlung:
+    Wenn wichtige Informationen (z. B. Berufserfahrung in Jahren) fehlen, schätzen Sie diese basierend auf dem Zeitrahmen der Rollen oder lassen Sie sie weg und konzentrieren Sie sich auf die verfügbaren Daten.Priorisieren Sie Inhalte aus 'Berufserfahrung', gefolgt von 'Fähigkeiten' und 'Ausbildung', und passen Sie den Schwerpunkt je nach Struktur des Lebenslaufs an.
+
+
+  # output von v2 bei Grok https://x.com/i/grok/share/i8ZJFEeuSp8tv4OQsHAaW47Sm
+  v2: |-
+    Erstellen Sie eine deutsche Zusammenfassung des bereitgestellten Lebenslaufs, die etwa 200 bis 300 Wörter umfasst. Die Zusammenfassung soll das berufliche Profil der Person umfassend darstellen und folgende Komponenten enthalten:
+
+    • Berufliche Übersicht: Beginnen Sie mit einem Satz, der die Person vorstellt, ihre Gesamterfahrung in Jahren und ihre Hauptexpertisenbereiche (z. B. Projektmanagement, IT-Management) nennt. 
+    • Höhepunkte der Berufserfahrung: Fassen Sie in einem Absatz die bedeutendsten Rollen und Erfolge aus der Berufshistorie zusammen, mit Fokus auf jüngste oder wirkungsvolle Positionen. Heben Sie konkrete Leistungen hervor (z. B. erfolgreiche Projektumsetzungen, Prozessoptimierungen mit Ergebnissen), statt nur Aufgaben zu listen. Verwenden Sie Übergangsphrasen (z. B. 'darüber hinaus', 'in dieser Rolle'), um einen logischen und flüssigen Text zu schaffen. 
+    • Fähigkeiten und Zertifizierungen: Nennen Sie in ein bis zwei Sätzen die wichtigsten Fähigkeiten und Zertifizierungen (z. B. Projektmanagement, ISMS-Manager), die die Expertise untermauern. 
+    • Zusätzliche Informationen: Schließen Sie mit einem Satz ab, der relevante Projekte, Ausbildungen oder Erfolge erwähnt, die das Profil abrunden, sofern Platz bleibt.
+    
+    Spezielle Anweisungen zu Firmennamen und redigierten Informationen:
+    • Behalten Sie die im Lebenslauf angegebenen Firmennamen (z. B. 'Erste Digital') bei. Verwenden Sie nur dann Platzhalter wie 'Unternehmen ABC', wenn Firmennamen im Lebenslauf fehlen oder redigiert sind. Für den Namen der Person verwenden Sie 'Max Mustermann'.
+    
+    Anweisungen zu Lücken in den Arbeitsjahren:
+    • Wenn es Lücken in den Arbeitsjahren gibt (z. B. fehlende Daten oder Zeiträume ohne Beschäftigung), erwähnen Sie diese kurz in der Zusammenfassung (z. B. 'Zwischen [Jahr] und [Jahr] war Max Mustermann nicht beruflich tätig' oder 'Für den Zeitraum [Jahr] bis [Jahr] sind keine beruflichen Aktivitäten angegeben').
+    
+    Anweisungen für Ton, Stil und Struktur:
+    • Schreiben Sie in einem professionellen Ton, der eine Mischung aus Marketingdeutsch und einem normalen Lebenslauf darstellt: Betonen Sie Leistungen und Fähigkeiten positiv, verwenden Sie aktive Sprache (z. B. 'er führte', 'sie optimierte') und heben Sie Erfolge hervor. 
+    
+    Verwenden Sie vollständige Sätze, keine Stichpunkte, und halten Sie den Text prägnant (etwa 200–300 Wörter).
+
+# v3 mach ich mit ohne "Sie", is n artefakt von Grok bzw nenn ich den vielleicht from_maaet_grok_and_me
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
