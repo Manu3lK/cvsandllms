@@ -1,0 +1,38 @@
+
+# prompts.yaml
+# A simple YAML file to store prompts with versioning
+
+prompts:
+  - name: "greeting_prompt"
+    description: "A prompt for generating a friendly greeting"
+    versions:
+      - version: "1.0"
+        created_date: "2025-03-07"
+        text: "Hello! How can I assist you today?"
+      - version: "1.1"
+        created_date: "2025-03-10"
+        text: "Hi there! How can I help you today with a smile?"
+    active_version: "1.1"
+
+  - name: "analysis_prompt"
+    description: "A prompt for requesting data analysis"
+    versions:
+      - version: "1.0"
+        created_date: "2025-03-08"
+        text: "Please analyze the provided data and give a summary."
+      - version: "2.0"
+        created_date: "2025-03-09"
+        text: "Analyze the data thoroughly and provide a detailed summary with insights."
+    active_version: "2.0"
+
+
+
+
+
+
+
+
+
+
+
+
