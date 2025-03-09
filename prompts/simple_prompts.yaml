@@ -1,8 +1,3 @@
-
-# prompts.yaml
-# A simple YAML file to store prompts with versioning
-
-
 simple_system_prompt:
   description: |-
     Ergänze ich vielleicht später

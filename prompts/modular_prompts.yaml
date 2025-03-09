@@ -1,3 +1,15 @@
+simple_system_prompt:
+  description: |-
+    Ergänze ich vielleicht später
+  
+  created_date: |-
+    Kommt vielleicht auch noch
+  
+  v1: |-
+    Du bist ein Experte im Umgang mit Bewerbungen.
+
+
+
 basis_befehl:
   description: |-
     Ergänze ich vielleicht später
@@ -9,13 +21,8 @@ basis_befehl:
     Analysiere den Lebenslauf und erstelle eine Zussammenfassung.
 
 
+
 struktur_beschreibung:
-  description: |-
-    Ergänze ich vielleicht später
-  
-  created_date: |-
-    Kommt vielleicht auch noch
-  
   v1: |-
     Hier sind folgende Punkte auf die du achten musst:
 
@@ -23,29 +30,23 @@ struktur_beschreibung:
     Hier sind folgende Punkte auf die bei der Zussammenfassung achten musst:
 
 
+
 laenge:
-  description: |-
-    Ergänze ich vielleicht später
-  
-  created_date: |-
-    Kommt vielleicht auch noch
-  
   v1: |-
     die Länge beträgt zwischen 200 bis 300 Wörter
+  v2: |-
+    in Summe beträgt die Länge zwischen 200 bis 300 Wörter
+
 
 
 ton_und_stil:
-  description: |-
-    Ergänze ich vielleicht später
-  
-  created_date: |-
-    Kommt vielleicht auch noch
-  
   v1: |-
-    Verfassen die Zusammenfassung in einem professionellen, objektiven Ton, der für einen deutschsprachigen Lebenslauf oder ein berufliches Profil geeignet ist, und spiegeln Sie den prägnanten und wirkungsvollen Stil einer gut gestalteten Zusammenfassung wider
+    Verfassen die Zusammenfassung in einem professionellen, objektiven Ton, der für einen deutschsprachigen Lebenslauf oder ein berufliches Profil geeignet ist, und spiegeln Sie den prägnanten und wirkungsvollen Stil einer gut gestalteten Zusammenfassung wieder
 
   v2: |-
     verfasse die Zusammenfassung in einer ansprechenden Mischung aus Marketingdeutsch und proffesionellem Ton.
+
+
 
 # unibiased
 
@@ -64,12 +65,43 @@ ton_und_stil:
 
 
 
+meta_perspektive:
+  v1: |-
+    beschreibe den roten Faden in der Karriere
+
+  v2: |-
+    versuche ähnliche Tätigkeiten zu erfassen und integriere die Beschreibungen dieser Gruppierungen in deine Analyse
+
+
+projekte:
+  v1: |-
+    gib eine kurze Übersicht über die interessantesten Projekte
+  v2: |-
+    gib eine sehr kurze Übersicht über die interessantesten Projekte und die darin wesentliche Tätigkeit
+
+
+staerken_schwaechen:
+  v1: |-
+    beschreibe kurz die Persönlichkeit der sich bewerbenden Person sowieo deren Stärken und Schwächen
 
 
 
+# lueckenlosigkeit:
+#   v1: |-
+#     mail
 
 
 
+beispielprojekte_werdegang:
+  v1: |-
+    wähle ungefähr 7 möglichst unterschiedliche Projekte und erstelle eine Aufzählung. Gib bei jedem Projekt zuerst die Jahreszahl an und dannach eine kurze Beschreibung.
+    wenn vorhanden unterteile die Aufzählung in Arten der Tätigkeit, wie z.B.: Selbständig und Angestellt
+
+
+
+kompetenzen:
+  v1: |-
+    erstelle eine kopakte Aufzählung aller Kompetenzen
 
 
 
