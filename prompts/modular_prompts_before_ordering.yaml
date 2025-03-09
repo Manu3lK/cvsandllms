@@ -10,12 +10,6 @@ simple_system_prompt:
 
 
 
-bigger_system_prompt:
-  v1: |-
-    Du bist ein Experte im Umgang mit Bewerbungen. BLABLA NOCH NICHT FERTIG
-
-
-
 basis_befehl:
   description: |-
     Ergänze ich vielleicht später
@@ -37,6 +31,14 @@ struktur_beschreibung:
 
 
 
+laenge:
+  v1: |-
+    die Länge beträgt zwischen 200 bis 300 Wörter
+  v2: |-
+    in Summe beträgt die Länge zwischen 200 bis 300 Wörter
+
+
+
 ton_und_stil:
   v1: |-
     Verfassen die Zusammenfassung in einem professionellen, objektiven Ton, der für einen deutschsprachigen Lebenslauf oder ein berufliches Profil geeignet ist, und spiegeln Sie den prägnanten und wirkungsvollen Stil einer gut gestalteten Zusammenfassung wieder
@@ -46,21 +48,21 @@ ton_und_stil:
 
 
 
-
-laenge:
-  v1: |-
-    die Länge beträgt zwischen 200 bis 300 Wörter
-  v2: |-
-    in Summe beträgt die Länge zwischen 200 bis 300 Wörter
-
-
-
 meta_perspektive:
   v1: |-
     beschreibe den roten Faden in der Karriere
 
   v2: |-
     versuche ähnliche Tätigkeiten zu erfassen und integriere die Beschreibungen dieser Gruppierungen in deine Analyse
+
+
+projekte:
+  v1: |-
+    gib eine kurze Übersicht über die interessantesten Projekte
+  v2: |-
+    gib eine sehr kurze Übersicht über die interessantesten Projekte und die darin wesentliche Tätigkeit
+  v3: |-
+    gib eine sehr kurze Übersicht über die Schlüsselprojekte und deren Ergebnisse
 
 
 staerken_schwaechen:
@@ -80,17 +82,6 @@ lueckenlosigkeit:
 unbiased:
   v1: |-
     ignoriere Rasse, Geschlecht und Alter der Person
-
-
-
-projekte:
-  v1: |-
-    gib eine kurze Übersicht über die interessantesten Projekte
-  v2: |-
-    gib eine sehr kurze Übersicht über die interessantesten Projekte und die darin wesentliche Tätigkeit
-  v3: |-
-    gib eine sehr kurze Übersicht über die Schlüsselprojekte und deren Ergebnisse
-
 
 
 beispielprojekte_werdegang:
