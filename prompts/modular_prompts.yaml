@@ -17,12 +17,6 @@ bigger_system_prompt:
 
 
 basis_befehl:
-  description: |-
-    Ergänze ich vielleicht später
-  
-  created_date: |-
-    Kommt vielleicht auch noch
-  
   v1: |-
     Analysiere den Lebenslauf und erstelle eine Zussammenfassung.
 
@@ -31,9 +25,12 @@ basis_befehl:
 struktur_beschreibung:
   v1: |-
     Hier sind folgende Punkte auf die du achten musst:
-
   v2: |-
     Hier sind folgende Punkte auf die bei der Zussammenfassung achten musst:
+  v3: |-
+    Berücksichtige und erfülle folgende Punkte beim erstellen der Zussammenfassung:
+  v4: |-
+    Berücksichtige und erfülle dabei folgende Punkte:
 
 
 
@@ -43,7 +40,6 @@ ton_und_stil:
 
   v2: |-
     verfasse die Zusammenfassung in einer ansprechenden Mischung aus Marketingdeutsch und proffesionellem Ton.
-
 
 
 
@@ -61,6 +57,7 @@ meta_perspektive:
 
   v2: |-
     versuche ähnliche Tätigkeiten zu erfassen und integriere die Beschreibungen dieser Gruppierungen in deine Analyse
+
 
 
 staerken_schwaechen:
@@ -105,6 +102,22 @@ kompetenzen:
     erstelle eine kopakte Aufzählung aller Kompetenzen
   v2: |-
     erstelle eine kopakte Aufzählung aller Kompetenzen inklusive Zertifizierungen
+
+
+cv_uebergabe:
+  v1: |-
+    Hier ist die Bewerbung:
+  v2: |-
+    Erstelle die Zussammenfassung für die folgende Bewerbung:
+  v3: |-
+    Erstelle die Zussammenfassung für die folgende Bewerbung, stelle dabei sicher das alle bisher genannten Kritieren erfüllt werden:
+  v4: |-
+    Erstelle die Zussammenfassung für die folgende Bewerbung, erfülle dabei alle bisher gennannten Kritieren:
+
+
+
+
+
 
 
 
